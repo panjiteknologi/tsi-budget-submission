@@ -18,3 +18,6 @@ export const messagesCollection = createCollection(
     schema: MessageSchema,
   }),
 )
+
+// Export auth collection
+export { authCollection, authHelpers, type AuthState } from './auth'
